@@ -13,7 +13,7 @@ class _IconImportWidgetState extends State<IconImportWidget> {
   Widget build(BuildContext context) {
     return Center(
       child: SvgPicture.asset(
-        "assets/icons/12.svg",
+        "assets/icons/32.svg",
         semanticsLabel: 'Acme Logo',
         colorFilter: const ColorFilter.mode(Colors.blue, BlendMode.srcIn),
         height: 40,

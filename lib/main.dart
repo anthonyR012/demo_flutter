@@ -1,16 +1,20 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:pruebas_flutter/circularAnimation.dart';
 import 'package:pruebas_flutter/iconImport.dart';
 import 'dart:math';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(body: IconImportWidget()));
+      home: MyHomePage(),
+    );
   }
 }
 
