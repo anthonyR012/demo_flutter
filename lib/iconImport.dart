@@ -15,6 +15,7 @@ class _IconImportWidgetState extends State<IconImportWidget> {
       child: SvgPicture.asset(
         "assets/icons/12.svg",
         semanticsLabel: 'Acme Logo',
+        colorFilter: const ColorFilter.mode(Colors.blue, BlendMode.srcIn),
         height: 40,
         width: 40,
       ),
