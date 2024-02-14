@@ -5,6 +5,8 @@ import 'package:pruebas_flutter/circularAnimation.dart';
 import 'package:pruebas_flutter/iconImport.dart';
 import 'dart:math';
 
+import 'package:pruebas_flutter/responsiveapp.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyHomePage(),
+      home: ResponsiveApp(),
     );
   }
 }
